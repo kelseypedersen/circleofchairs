@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C2043" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,26 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Specify # of Chairs" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ntj-08-hUn">
-                                <rect key="frame" x="16" y="102" width="209" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Specify # of Chairs" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ntj-08-hUn">
+                                <rect key="frame" x="16" y="161" width="568" height="30"/>
+                                <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Circle of Chairs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n84-Ia-58V">
-                                <rect key="frame" x="16" y="28" width="216" height="42"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="# of Survivors" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNl-Ef-mOi">
-                                <rect key="frame" x="23" y="237" width="209" height="138"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuU-DZ-G7w">
-                                <rect key="frame" x="16" y="140" width="70" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuU-DZ-G7w">
+                                <rect key="frame" x="16" y="285" width="70" height="30"/>
                                 <color key="backgroundColor" red="0.72145336782369374" green="0.73012874754125545" blue="0.89599116160000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="UKS-er-Rci"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="15"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Calculate">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -44,8 +37,55 @@
                                     <action selector="calculateButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="UNb-xh-C98"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="# of Survivors" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNl-Ef-mOi">
+                                <rect key="frame" x="196" y="528" width="209" height="52"/>
+                                <color key="backgroundColor" red="0.89599116160000003" green="0.19886357029999999" blue="0.85240473039999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="209" id="18V-vS-FEr"/>
+                                    <constraint firstAttribute="height" constant="52" id="rrH-Bu-8ie"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdG-JZ-nj3">
+                                <rect key="frame" x="532" y="285" width="52" height="30"/>
+                                <color key="backgroundColor" red="0.72145336780000002" green="0.73012874750000001" blue="0.89599116160000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="52" id="Dvz-7e-IpO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="15"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Clear"/>
+                                <connections>
+                                    <action selector="clearButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gqF-iT-oXH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Circle of Chairs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n84-Ia-58V">
+                                <rect key="frame" x="16" y="70" width="568" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="gDB-Fh-IQR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ntj-08-hUn" firstAttribute="top" secondItem="n84-Ia-58V" secondAttribute="bottom" constant="49" id="EwY-8g-6iP"/>
+                            <constraint firstAttribute="bottom" secondItem="hNl-Ef-mOi" secondAttribute="bottom" constant="20" symbolic="YES" id="Jbb-DG-ZCC"/>
+                            <constraint firstItem="n84-Ia-58V" firstAttribute="trailing" secondItem="Ntj-08-hUn" secondAttribute="trailing" id="N6Y-VV-VJH"/>
+                            <constraint firstItem="n84-Ia-58V" firstAttribute="leading" secondItem="Ntj-08-hUn" secondAttribute="leading" id="Oa6-fd-BKJ"/>
+                            <constraint firstItem="n84-Ia-58V" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Xbf-Yh-ZaD"/>
+                            <constraint firstItem="n84-Ia-58V" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="50" id="abJ-RF-gkG"/>
+                            <constraint firstItem="hNl-Ef-mOi" firstAttribute="centerX" secondItem="Ntj-08-hUn" secondAttribute="centerX" id="dKn-5Z-Boc"/>
+                            <constraint firstItem="bdG-JZ-nj3" firstAttribute="trailing" secondItem="Ntj-08-hUn" secondAttribute="trailing" id="fqk-Iv-GZ9"/>
+                            <constraint firstItem="n84-Ia-58V" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="gPu-Hu-yTP"/>
+                            <constraint firstItem="bdG-JZ-nj3" firstAttribute="baseline" secondItem="uuU-DZ-G7w" secondAttribute="baseline" id="iD9-Nf-qzv"/>
+                            <constraint firstItem="bdG-JZ-nj3" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="vLP-Y1-SS8"/>
+                            <constraint firstItem="uuU-DZ-G7w" firstAttribute="leading" secondItem="Ntj-08-hUn" secondAttribute="leading" id="xBh-kr-osA"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="numberInput" destination="Ntj-08-hUn" id="SYa-0X-2KZ"/>

@@ -15,8 +15,8 @@
 
 @property(nonatomic) NSUInteger number;
 
-
 - (IBAction)calculateButtonPressed:(UIButton *)sender;
+- (IBAction)clearButtonPressed:(UIButton *)sender;
 
 @end
 
@@ -33,8 +33,15 @@
 }
 
 - (IBAction)calculateButtonPressed:(UIButton *)sender {
-    [self calculateSurvivors];
+//    [self calculateSurvivors];
     [self createCircleOfChairs];
+}
+
+- (IBAction)clearButtonPressed:(UIButton *)sender {
+    self.numberInput.text = nil;
+    self.survivorsLabel.text = nil;
+    self.survivorsLabel.backgroundColor = nil;
+    
 }
 
 - (NSMutableArray *)createCircleOfChairs {
@@ -47,8 +54,6 @@
     
     for (NSInteger i = 0; i < number; i++){
         [chairsArray addObject:[NSString stringWithFormat:@"chair: %ld", (long)i+1]];
-        
-        
     }
 
     // While the array is greater than or equal to 0
@@ -57,31 +62,31 @@
         
         // Remove the first item
         
-        NSLog(@"%@", chairsArray[0]);
+        NSLog(@"*******************************************************");
         
+        NSLog(@"We are removing: %@", chairsArray[0]);
         [chairsArray removeObject:chairsArray[0]];
+        NSLog(@"Index 0 is now %@", chairsArray[0]);
         
         // Skip the second item - move to the end
         
         if ([chairsArray count] > 1) {
             
-            NSString *secondObject = chairsArray[1];
+            NSString *skipChair = chairsArray[0];
             
-            NSLog(@"%@", secondObject);
+            NSLog(@"we are skipping this chair and moving it to the back: %@", skipChair);
             
-            [chairsArray insertObject:secondObject atIndex:[chairsArray count]];
+            [chairsArray insertObject:skipChair atIndex:1];
             
-//            NSLog(@"%@", chairsArray);
-            
-            for (NSInteger i = 0; i < [chairsArray count]; i++){
-                NSLog(@"%lu", (unsigned long)[chairsArray indexOfObject:chairsArray[i]]);
-            }
+            NSLog(@"%@", chairsArray);
+    
         }
-        
-//        [chairsArray removeObject:chairsArray[0]];
-        
-
     }
+    
+    NSLog(@"%@", chairsArray);
+    
+    self.survivorsLabel.text = [NSString stringWithFormat: @"%@", chairsArray[0]];
+    self.survivorsLabel.backgroundColor = [UIColor yellowColor];
     
     return chairsArray;
     
@@ -95,8 +100,6 @@
 
     
 }
-
-
 
 
 @end
