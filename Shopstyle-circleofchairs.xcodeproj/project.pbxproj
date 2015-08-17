@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A82FAEE41B817E3200C106D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FAEE31B817E3200C106D9 /* main.m */; };
+		A82FAEE71B817E3200C106D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FAEE61B817E3200C106D9 /* AppDelegate.m */; };
+		A82FAEEA1B817E3200C106D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FAEE91B817E3200C106D9 /* ViewController.m */; };
+		A82FAEED1B817E3200C106D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82FAEEB1B817E3200C106D9 /* Main.storyboard */; };
+		A82FAEEF1B817E3200C106D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82FAEEE1B817E3200C106D9 /* Images.xcassets */; };
+		A82FAEF21B817E3200C106D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A82FAEF01B817E3200C106D9 /* LaunchScreen.xib */; };
+		A82FAEFE1B817E3200C106D9 /* Shopstyle_circleofchairsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FAEFD1B817E3200C106D9 /* Shopstyle_circleofchairsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A82FAEF81B817E3200C106D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A82FAED61B817E3200C106D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A82FAEDD1B817E3200C106D9;
+			remoteInfo = "Shopstyle-circleofchairs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A82FAEDE1B817E3200C106D9 /* Shopstyle-circleofchairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopstyle-circleofchairs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82FAEE21B817E3200C106D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A82FAEE31B817E3200C106D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A82FAEE51B817E3200C106D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A82FAEE61B817E3200C106D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A82FAEE81B817E3200C106D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A82FAEE91B817E3200C106D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A82FAEEC1B817E3200C106D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A82FAEEE1B817E3200C106D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A82FAEF11B817E3200C106D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A82FAEF71B817E3200C106D9 /* Shopstyle-circleofchairsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopstyle-circleofchairsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82FAEFC1B817E3200C106D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A82FAEFD1B817E3200C106D9 /* Shopstyle_circleofchairsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shopstyle_circleofchairsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A82FAEDB1B817E3200C106D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82FAEF41B817E3200C106D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A82FAED51B817E3200C106D9 = {
+			isa = PBXGroup;
+			children = (
+				A82FAEE01B817E3200C106D9 /* Shopstyle-circleofchairs */,
+				A82FAEFA1B817E3200C106D9 /* Shopstyle-circleofchairsTests */,
+				A82FAEDF1B817E3200C106D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A82FAEDF1B817E3200C106D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A82FAEDE1B817E3200C106D9 /* Shopstyle-circleofchairs.app */,
+				A82FAEF71B817E3200C106D9 /* Shopstyle-circleofchairsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A82FAEE01B817E3200C106D9 /* Shopstyle-circleofchairs */ = {
+			isa = PBXGroup;
+			children = (
+				A82FAEE51B817E3200C106D9 /* AppDelegate.h */,
+				A82FAEE61B817E3200C106D9 /* AppDelegate.m */,
+				A82FAEE81B817E3200C106D9 /* ViewController.h */,
+				A82FAEE91B817E3200C106D9 /* ViewController.m */,
+				A82FAEEB1B817E3200C106D9 /* Main.storyboard */,
+				A82FAEEE1B817E3200C106D9 /* Images.xcassets */,
+				A82FAEF01B817E3200C106D9 /* LaunchScreen.xib */,
+				A82FAEE11B817E3200C106D9 /* Supporting Files */,
+			);
+			path = "Shopstyle-circleofchairs";
+			sourceTree = "<group>";
+		};
+		A82FAEE11B817E3200C106D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A82FAEE21B817E3200C106D9 /* Info.plist */,
+				A82FAEE31B817E3200C106D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A82FAEFA1B817E3200C106D9 /* Shopstyle-circleofchairsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A82FAEFD1B817E3200C106D9 /* Shopstyle_circleofchairsTests.m */,
+				A82FAEFB1B817E3200C106D9 /* Supporting Files */,
+			);
+			path = "Shopstyle-circleofchairsTests";
+			sourceTree = "<group>";
+		};
+		A82FAEFB1B817E3200C106D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A82FAEFC1B817E3200C106D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A82FAEDD1B817E3200C106D9 /* Shopstyle-circleofchairs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82FAF011B817E3200C106D9 /* Build configuration list for PBXNativeTarget "Shopstyle-circleofchairs" */;
+			buildPhases = (
+				A82FAEDA1B817E3200C106D9 /* Sources */,
+				A82FAEDB1B817E3200C106D9 /* Frameworks */,
+				A82FAEDC1B817E3200C106D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shopstyle-circleofchairs";
+			productName = "Shopstyle-circleofchairs";
+			productReference = A82FAEDE1B817E3200C106D9 /* Shopstyle-circleofchairs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A82FAEF61B817E3200C106D9 /* Shopstyle-circleofchairsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82FAF041B817E3200C106D9 /* Build configuration list for PBXNativeTarget "Shopstyle-circleofchairsTests" */;
+			buildPhases = (
+				A82FAEF31B817E3200C106D9 /* Sources */,
+				A82FAEF41B817E3200C106D9 /* Frameworks */,
+				A82FAEF51B817E3200C106D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A82FAEF91B817E3200C106D9 /* PBXTargetDependency */,
+			);
+			name = "Shopstyle-circleofchairsTests";
+			productName = "Shopstyle-circleofchairsTests";
+			productReference = A82FAEF71B817E3200C106D9 /* Shopstyle-circleofchairsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A82FAED61B817E3200C106D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kelsey Pedersen";
+				TargetAttributes = {
+					A82FAEDD1B817E3200C106D9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A82FAEF61B817E3200C106D9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A82FAEDD1B817E3200C106D9;
+					};
+				};
+			};
+			buildConfigurationList = A82FAED91B817E3200C106D9 /* Build configuration list for PBXProject "Shopstyle-circleofchairs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A82FAED51B817E3200C106D9;
+			productRefGroup = A82FAEDF1B817E3200C106D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A82FAEDD1B817E3200C106D9 /* Shopstyle-circleofchairs */,
+				A82FAEF61B817E3200C106D9 /* Shopstyle-circleofchairsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A82FAEDC1B817E3200C106D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82FAEED1B817E3200C106D9 /* Main.storyboard in Resources */,
+				A82FAEF21B817E3200C106D9 /* LaunchScreen.xib in Resources */,
+				A82FAEEF1B817E3200C106D9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82FAEF51B817E3200C106D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A82FAEDA1B817E3200C106D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82FAEEA1B817E3200C106D9 /* ViewController.m in Sources */,
+				A82FAEE71B817E3200C106D9 /* AppDelegate.m in Sources */,
+				A82FAEE41B817E3200C106D9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82FAEF31B817E3200C106D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82FAEFE1B817E3200C106D9 /* Shopstyle_circleofchairsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A82FAEF91B817E3200C106D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A82FAEDD1B817E3200C106D9 /* Shopstyle-circleofchairs */;
+			targetProxy = A82FAEF81B817E3200C106D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A82FAEEB1B817E3200C106D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A82FAEEC1B817E3200C106D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A82FAEF01B817E3200C106D9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A82FAEF11B817E3200C106D9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A82FAEFF1B817E3200C106D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A82FAF001B817E3200C106D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A82FAF021B817E3200C106D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shopstyle-circleofchairs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A82FAF031B817E3200C106D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shopstyle-circleofchairs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A82FAF051B817E3200C106D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Shopstyle-circleofchairsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopstyle-circleofchairs.app/Shopstyle-circleofchairs";
+			};
+			name = Debug;
+		};
+		A82FAF061B817E3200C106D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Shopstyle-circleofchairsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopstyle-circleofchairs.app/Shopstyle-circleofchairs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A82FAED91B817E3200C106D9 /* Build configuration list for PBXProject "Shopstyle-circleofchairs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82FAEFF1B817E3200C106D9 /* Debug */,
+				A82FAF001B817E3200C106D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82FAF011B817E3200C106D9 /* Build configuration list for PBXNativeTarget "Shopstyle-circleofchairs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82FAF021B817E3200C106D9 /* Debug */,
+				A82FAF031B817E3200C106D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A82FAF041B817E3200C106D9 /* Build configuration list for PBXNativeTarget "Shopstyle-circleofchairsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82FAF051B817E3200C106D9 /* Debug */,
+				A82FAF061B817E3200C106D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A82FAED61B817E3200C106D9 /* Project object */;
+}
