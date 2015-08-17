@@ -27,8 +27,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="# of Survivors" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNl-Ef-mOi">
-                                <rect key="frame" x="117" y="237" width="115" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="# of Survivors" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNl-Ef-mOi">
+                                <rect key="frame" x="23" y="237" width="209" height="138"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -41,16 +41,13 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="calculateButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Azz-ou-8RH"/>
-                                    <action selector="calculateButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0rB-kA-Ec4"/>
-                                    <action selector="calculateSurvivors:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8wm-I4-9Ko"/>
+                                    <action selector="calculateButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="UNb-xh-C98"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="calculateButtonPressed" destination="uuU-DZ-G7w" id="VDy-oP-U0X"/>
                         <outlet property="numberInput" destination="Ntj-08-hUn" id="SYa-0X-2KZ"/>
                         <outlet property="survivorsLabel" destination="hNl-Ef-mOi" id="ooX-AG-zyC"/>
                     </connections>

@@ -10,10 +10,9 @@
 
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UITextField *numberInput;
-@property (weak, nonatomic) IBOutlet UILabel *survivorsLabel;
 
-- (IBAction)calculateButtonPressed:(id)sender;
+
+
 
 @end
 
