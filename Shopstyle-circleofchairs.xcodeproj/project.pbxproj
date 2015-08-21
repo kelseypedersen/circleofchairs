@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A80D6E7B1B87B6210063829F /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A80D6E7A1B87B6210063829F /* ViewControllerTests.m */; };
 		A82FAEE41B817E3200C106D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FAEE31B817E3200C106D9 /* main.m */; };
 		A82FAEE71B817E3200C106D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FAEE61B817E3200C106D9 /* AppDelegate.m */; };
 		A82FAEEA1B817E3200C106D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FAEE91B817E3200C106D9 /* ViewController.m */; };
 		A82FAEED1B817E3200C106D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82FAEEB1B817E3200C106D9 /* Main.storyboard */; };
 		A82FAEEF1B817E3200C106D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82FAEEE1B817E3200C106D9 /* Images.xcassets */; };
 		A82FAEF21B817E3200C106D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A82FAEF01B817E3200C106D9 /* LaunchScreen.xib */; };
-		A82FAEFE1B817E3200C106D9 /* Shopstyle_circleofchairsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FAEFD1B817E3200C106D9 /* Shopstyle_circleofchairsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A80D6E7A1B87B6210063829F /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
 		A82FAEDE1B817E3200C106D9 /* Shopstyle-circleofchairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopstyle-circleofchairs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82FAEE21B817E3200C106D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A82FAEE31B817E3200C106D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		A82FAEF11B817E3200C106D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A82FAEF71B817E3200C106D9 /* Shopstyle-circleofchairsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopstyle-circleofchairsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82FAEFC1B817E3200C106D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A82FAEFD1B817E3200C106D9 /* Shopstyle_circleofchairsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shopstyle_circleofchairsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 		A82FAEFA1B817E3200C106D9 /* Shopstyle-circleofchairsTests */ = {
 			isa = PBXGroup;
 			children = (
-				A82FAEFD1B817E3200C106D9 /* Shopstyle_circleofchairsTests.m */,
+				A80D6E7A1B87B6210063829F /* ViewControllerTests.m */,
 				A82FAEFB1B817E3200C106D9 /* Supporting Files */,
 			);
 			path = "Shopstyle-circleofchairsTests";
@@ -229,7 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A82FAEFE1B817E3200C106D9 /* Shopstyle_circleofchairsTests.m in Sources */,
+				A80D6E7B1B87B6210063829F /* ViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +416,7 @@
 				A82FAF031B817E3200C106D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A82FAF041B817E3200C106D9 /* Build configuration list for PBXNativeTarget "Shopstyle-circleofchairsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				A82FAF061B817E3200C106D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
