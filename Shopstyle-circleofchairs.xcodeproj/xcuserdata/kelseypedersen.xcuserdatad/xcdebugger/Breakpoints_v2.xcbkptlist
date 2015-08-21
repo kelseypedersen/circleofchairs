@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Shopstyle-circleofchairs/ViewController.m"
-            timestampString = "461876796.802326"
+            timestampString = "461883606.90852"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "-calculateSurvivors:"
             landmarkType = "5">
          </BreakpointContent>

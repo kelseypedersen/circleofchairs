@@ -45,13 +45,11 @@
     self.numberInput.text = nil;
     self.survivorsLabel.text = nil;
     self.survivorsLabel.backgroundColor = nil;
-    
 }
 
 - (NSArray *)createCircleOfChairs {
 
     int number = [self.numberInput.text intValue];
-    
     NSMutableArray *inputChairsArray = [[NSMutableArray alloc]initWithCapacity:number];
     
     for (NSInteger i = 0; i < number; i++){
@@ -75,23 +73,22 @@
     NSMutableArray *currentChairs = [[NSMutableArray alloc]initWithCapacity:sizeOfChairsArray];
     
     for (int i = 0; i < [chairsArray count]; i++){
-        
+
         if (i % 2 != 0){
             [currentChairs addObject: chairsArray[i]];
         }
         
         NSLog(@"current Chairs: %@", currentChairs);
+        
         if ([currentChairs count] >= 1)[self calculateSurvivors:currentChairs];
-//            else return currentChairs;
-            
+        
     }
     
-    
-    
-    self.survivorsLabel.text = [NSString stringWithFormat: @"%@", chairsArray[0]];
+    NSLog(@"%@", currentChairs);
+    self.survivorsLabel.text = [NSString stringWithFormat: @"%@", currentChairs[0]];
     self.survivorsLabel.backgroundColor = [UIColor yellowColor];
     
-    return 0;
+    return currentChairs;
 }
 
 

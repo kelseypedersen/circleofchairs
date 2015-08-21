@@ -10,9 +10,7 @@
 
 @interface ViewController : UIViewController
 
-
-
-
+- (NSArray *)calculateSurvivors:(NSArray *)chairsArray;
 
 @end
 
